@@ -1,0 +1,90 @@
+body#page_layout.index  {
+
+  #headline_banner {
+    background-color: #fff;
+    padding-top: 145px;
+    padding-bottom: 273px;
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {
+      padding-top: 130px;
+      padding-bottom: 193px;
+    }
+
+    #headline {
+      text-align: center;
+
+      h1, h2 {
+        font-size: 31px;
+        line-height: 38px;
+        letter-spacing: -1px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+
+      h1 {
+        color: #494b4d;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 12px;
+        }
+
+        img {
+          vertical-align: bottom;
+          margin: 0px 12px -2px 14px;
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            height: 38px;
+            width: 93px;
+          }
+        }
+      }
+
+      h2 {
+        color: #868e96;
+        margin-bottom: 59px;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 30px;
+        }
+      }
+
+      a {
+        background-color: #5a9bce;
+        border-radius: 3px;
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 19px 43px;
+        text-decoration: none;
+
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          padding: 15px 30px;
+        }
+      }
+      .nudge {
+        margin-top: 6px;
+        font-size: 13px;
+        line-height: 18px;
+        color: #84c1b1;
+        font-weight: bold;
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
