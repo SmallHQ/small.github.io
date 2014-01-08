@@ -14,11 +14,10 @@
       margin-bottom: 30px;
 
       h1 {
-        font-size: 31px;
+        font-size: 25px;
         font-weight: bold;
-        line-height: 40px;
+        line-height: 34px;
         letter-spacing: -1px;
-        margin-bottom: 6px;
 
         a {
           color: #494b4d;
@@ -30,8 +29,27 @@
       }
 
       p {
-        font-size: 18px;
-        line-height: 26px;
+        color: #999;
+        font-size: 15px;
+        line-height: 23px;
+      }
+    }
+
+    h2 {
+      border-bottom: 1px solid #ddd;
+      color: #666;
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 10px;
+      margin-top: 80px;
+      padding-bottom: 3px;
+    }
+
+    #elsewhere {
+      article {
+        h1 {
+          font-weight: normal;
+        }
       }
     }
   }
