@@ -13,21 +13,29 @@ $pictos: 'Pictos';
 
 body {
   background-color: #fff;
-  color: #333;
+  color: #21272d;
   font-family: $proxima;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
+#footer_banner {
+  background-color: #111;
+  padding: 12px 0px;
+}
+
 footer {
-  margin-top: 100px !important;
+  background-color: #111;
   text-align: center;
 
-  a {
-    color: #898f95;
+  p, a {
+    color: #f7f7f7;
     font-size: 15px;
     line-height: 29px;
+  }
+
+  a {
     text-decoration: underline;
     display: block;
 
@@ -37,7 +45,7 @@ footer {
   }
 
   span {
-    color: #898f95;
+    color: #f7f7f7;
     margin-right: 10px;
 
     a {
@@ -67,13 +75,14 @@ a {
 
 /* BEGIN HEADER BAR */
 #header_bar_banner {
-  background-color: rgba(255,255,255,0.95);
+  background-color: #fff;
   position: fixed;
+  top:0px;
   width: 100%;
   z-index: 9999;
 }
 #header_bar {
-  height: 50px;
+  height: 60px;
 
   /* All Mobile Sizes (devices and browser) */
   @media only screen and (max-width: 767px) {height: 100px}
@@ -82,7 +91,7 @@ a {
     float: left;
     width: 300px;
     height: 24px;
-    padding: 12px 0px 14px;
+    padding: 14px 0px 14px;
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
@@ -95,12 +104,13 @@ a {
     float: right;
 
     a {
-      color: #bcc3cc;
-      font-size: 15px;
-      line-height: 24px;
-      padding: 13px 0px;
+      color: #444;
+      font-size: 14px;
+      line-height: 26px;
+      font-weight: 600;
+      padding: 19px 0px 0px;
       display: inline-block;
-      margin-left: 28px;
+      margin-left: 32px;
       transition: color .2s;
 
       &#trial_button {

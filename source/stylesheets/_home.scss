@@ -1,23 +1,43 @@
 body#page_layout.index  {
 
+  .section_header {
+    color: #21272d;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 70px;
+  }
+
   #headline_banner {
-    background-color: #fff;
-    padding-top: 145px;
-    padding-bottom: 273px;
+    background-image: url(/images/san-diego-skyline.png);
+    background-color: #111;
+    background-size: cover;
+    background-position: top center;
+    z-index: 1;
+    margin-top: 50px;
 
     /* All Mobile Sizes (devices and browser) */
     @media only screen and (max-width: 767px) {
-      padding-top: 130px;
-      padding-bottom: 193px;
+      margin-top: 100px;
+    }
+
+    #headline_overlay {
+      padding: 145px 0;
+      background-color: rgba(0,0,0,0.3);
+
+      /* All Mobile Sizes (devices and browser) */
+      @media only screen and (max-width: 767px) {
+        padding: 100px 0;
+      }
     }
 
     #headline {
+      $proxima: 'proxima-nova', $helvetica;
       text-align: center;
 
       h1, h2 {
-        font-size: 31px;
-        line-height: 38px;
-        letter-spacing: -1px;
+        font-size: 2.7em;
+        line-height: 1.4em;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
@@ -27,24 +47,14 @@ body#page_layout.index  {
       }
 
       h1 {
-        color: #494b4d;
-        font-weight: bold;
+        color: #fff;
+        text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
+        font-weight: 800;
         margin-bottom: 20px;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
           margin-bottom: 12px;
-        }
-
-        img {
-          vertical-align: bottom;
-          margin: 0px 12px -2px 14px;
-
-          /* All Mobile Sizes (devices and browser) */
-          @media only screen and (max-width: 767px) {
-            height: 38px;
-            width: 93px;
-          }
         }
       }
 
@@ -83,6 +93,123 @@ body#page_layout.index  {
         /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
         @media only screen and (max-width: 479px) {
           font-size: 11px;
+        }
+      }
+
+
+      input[type="text"],
+      input[type="submit"] {
+        border-radius: 2px;
+        border: none;
+        font-family: "Proxima Nova", Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 20px;
+        outline: none;
+      }
+
+      input[type="text"] {
+        padding: 8px 12px;
+      }
+
+      input[type="submit"] {
+        padding: 8px 20px;
+        background-color: #0086CC;
+        color: #f7f7f7;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+
+  #products_banner {
+    background-color: #f1f3f5;
+    padding: 100px 0px;
+    #products {
+
+      img {
+        box-shadow: 0px 0px 2px 0px #ddd;
+
+        &:hover {
+          box-shadow: 0px 0px 3px 1px #ccc;
+        }
+      }
+    }
+  }
+
+  #books_guides_banner {
+    background-color: #fff;
+    padding: 100px 0px;
+    #books_guides {
+
+      #rocketship {
+        text-align: center;
+      }
+    }
+  }
+
+  #about_banner {
+    background-color: #f1f3f5;
+    padding: 100px 0px;
+    #about {
+
+      #matt, #joelle {
+        text-align: center;
+
+        h2 {
+          font-size: 22px;
+          font-weight: 800;
+          font-color: #21272d;
+        }
+
+        h2, p {
+          color: #21272d;
+        }
+      }
+
+      .bio img {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 1em;
+        border-radius: 500px;
+        background-size: cover;
+        float: none;
+      }
+
+      a {
+        text-decoration: none;
+         color: #21272d;
+
+          &:hover {
+            text-decoration: underline;
+          }
+      }
+
+      #blockquote {
+        padding: 60px 0px;
+        text-align: center;
+
+        blockquote {
+          font-style: italic;
+          font-size: 30px;
+          font-weight: 800;
+          letter-spacing: -1px;
+          line-height: 37px;
+          border: none;
+          max-width: 600px;
+          margin: 0 auto;
+        }
+
+        cite {
+          display: block;
+          font-size: 16px;
+          font-weight:400;
+          line-height: 19px;
+          margin-top: 11px;
         }
       }
     }
