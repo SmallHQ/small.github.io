@@ -217,8 +217,13 @@ body#page_layout.index  {
       #about_small p {
         font-size: 22px;
         line-height: 32px;
-        padding: 40px 100px 0px;
+        padding: 40px 0px 0px;
         text-align: center;
+      }
+
+      #about_small a {
+        text-decoration: underline;
+        background-color: #F7F7DE;
       }
     }
   }
