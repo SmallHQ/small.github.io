@@ -36,12 +36,18 @@ body#page_layout.index  {
       text-align: center;
 
       h1, h2 {
-        font-size: 2.7em;
-        line-height: 1.4em;
+        font-size: 43px;
+        line-height: 52px;
 
         /* All Mobile Sizes (devices and browser) */
         @media only screen and (max-width: 767px) {
-          font-size: 24px;
+          font-size: 32px;
+          line-height: 40px;
+        }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          font-size: 28px;
           line-height: 30px;
         }
       }
@@ -121,6 +127,11 @@ body#page_layout.index  {
         &:hover {
           opacity: 0.9;
         }
+
+        /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+        @media only screen and (max-width: 479px) {
+          margin-top: 5px;
+        }
       }
     }
   }
@@ -135,6 +146,13 @@ body#page_layout.index  {
 
         &:hover {
           box-shadow: 0px 0px 3px 1px #ccc;
+        }
+      }
+
+      #hookfeed {
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 8px;
         }
       }
     }
@@ -170,6 +188,13 @@ body#page_layout.index  {
         }
       }
 
+      #matt {
+        /* All Mobile Sizes (devices and browser) */
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 40px;
+        }
+      }
+
       .bio img {
         display: block;
         width: 150px;
@@ -189,29 +214,28 @@ body#page_layout.index  {
           }
       }
 
-      #blockquote {
-        padding: 60px 0px;
+      #about_small p {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 40px 100px 0px;
         text-align: center;
-
-        blockquote {
-          font-style: italic;
-          font-size: 30px;
-          font-weight: 800;
-          letter-spacing: -1px;
-          line-height: 37px;
-          border: none;
-          max-width: 600px;
-          margin: 0 auto;
-        }
-
-        cite {
-          display: block;
-          font-size: 16px;
-          font-weight:400;
-          line-height: 19px;
-          margin-top: 11px;
-        }
       }
     }
   }
 }
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}

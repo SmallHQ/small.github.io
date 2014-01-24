@@ -123,10 +123,21 @@ a {
         text-decoration: none;
       }
 
+      /* Tablet Portrait size to standard 960 (devices and browsers) */
+      @media only screen and (min-width: 768px) and (max-width: 959px) {
+        margin-left: 26px;
+      }
+
       /* All Mobile Sizes (devices and browser) */
       @media only screen and (max-width: 767px) {
         margin-left: 15px;
         font-size: 14px;
+      }
+
+      /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+      @media only screen and (max-width: 479px) {
+        margin-left: 12px;
+        font-size: 12px;
       }
 
       &:first-child {
