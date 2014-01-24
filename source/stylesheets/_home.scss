@@ -214,16 +214,32 @@ body#page_layout.index  {
           }
       }
 
-      #about_small p {
-        font-size: 22px;
-        line-height: 32px;
-        padding: 40px 0px 0px;
-        text-align: center;
-      }
+      #about_small {
+        margin-top: 24px;
 
-      #about_small a {
-        text-decoration: underline;
-        background-color: #F7F7DE;
+        p {
+          font-size: 22px;
+          line-height: 32px;
+          padding: 40px 0px 0px;
+          text-align: center;
+
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 959px) {
+            font-size: 20px;
+            line-height: 30px;
+          }
+          /* All Mobile Sizes (devices and browser) */
+          @media only screen and (max-width: 767px) {
+            font-size: 18px;
+            line-height: 26px;
+          }
+
+        }
+
+        a {
+          text-decoration: underline;
+          background-color: #F7F7DE;
+        }
       }
     }
   }
