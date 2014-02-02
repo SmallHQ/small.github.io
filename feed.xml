@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Small HQ Blog</title>
+  <id>http://www.smallhq.com/blog</id>
+  <link href="http://www.smallhq.com/blog"/>
+  <link href="http://www.smallhq.com/feed.xml" rel="self"/>
+  <author>
+    <name>Matt Goldman</name>
+    <name>Joelle Steiniger</name>
+  </author>
+</feed>
