@@ -26,7 +26,9 @@
     <div id="header_bar" class="container">
       <div class="sixteen columns">
         <div id="logo">
-          <%= link_to '<img src="images/small_hq.png" width="200">', '/' %>
+          <% link_to '/' do %>
+            <%= image_tag 'small_hq.png', width: '200' %>
+          <% end %>
         </div>
         <nav>
           <%= link_to 'PRODUCTS', '/#products_banner' %>
