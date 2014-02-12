@@ -9,12 +9,19 @@ changefreq: daily
   <div id="blog_list" class="container">
     <div class="ten columns offset-by-three">
 
-      <% blog.articles.each do |article| %>
-        <article>
-          <h1><a href="<%= article.url %>"><%= article.title %></a></h1>
-          <p><%= article.data.teaser %></p>
-        </article>
-      <% end %>
+      <!-- Campaign Monitor Button -->
+      <div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/EE/F07/73C/36EF65FEFFEF7FE1">
+      </div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+      <!-- END CM Button -->
+      <h2>Founder's Edition</h2>
+      <div id="founders-edition">
+        <% blog.articles.each do |article| %>
+          <article>
+            <h1><a href="<%= article.url %>"><%= article.title %></a></h1>
+            <p>Sent on <%= article.date.strftime("%b. %d, %Y") %> by <%= article.data.author.split('_')[0].capitalize %></p>
+          </article>
+        <% end %>
+      </div>
 
       <h2>Published Elsewhere</h2>
       <div id="elsewhere">

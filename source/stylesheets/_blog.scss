@@ -15,7 +15,6 @@
 
       h1 {
         font-size: 25px;
-        font-weight: bold;
         line-height: 34px;
         letter-spacing: -1px;
 
@@ -43,13 +42,9 @@
       margin-bottom: 10px;
       margin-top: 80px;
       padding-bottom: 3px;
-    }
 
-    #elsewhere {
-      article {
-        h1 {
-          font-weight: normal;
-        }
+      &:first-of-type {
+        margin-top:20px;
       }
     }
   }
@@ -64,6 +59,10 @@
   }
 
   #blog {
+    a {
+      color: #5A9BCE;
+    }
+
     h1, h2, h3 {
       color: #505254;
     }
