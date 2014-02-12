@@ -1,6 +1,6 @@
 ---
 title: The Road to SaaS Revenue is Painfully Slow. Are You Prepared for It?
-promo: founders_edition
+promo: rocketship
 author: matt_goldman
 published: true
 ---
