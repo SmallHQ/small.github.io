@@ -37,9 +37,9 @@ published: true
 <p>
   The cost of this deliverable is typically in the hundreds <em>(not the thousands) </em>and any developer you work with should be able to execute your product according to the style guide<em> (if not - look for a new developer)</em>. Here are the early style guides for <a href="http://www.hookfeed.com">HookFeed</a> and <a href="http://www.minimalytics.com">Minimalytics</a>:</p>
 <p>
-  <img src="https://s3.amazonaws.com/smallhq/hf-styles.gif" style="border:2px solid #5A9BCE" /></p>
+  <img src="https://s3.amazonaws.com/smallhq/hf-styles.gif" style="border:2px solid #5A9BCE;width:566px;margin-left:0px;" /></p>
 <p>
-  <img src="https://s3.amazonaws.com/smallhq/mnml-styles.gif" style="border:2px solid #5A9BCE" /></p>
+  <img src="https://s3.amazonaws.com/smallhq/mnml-styles.gif" style="border:2px solid #5A9BCE;width:566px;margin-left:0px;" /></p>
 <p>
   We love amazing design. And we want everything we produce to look good &ndash; especially since our customers are often designers. But design matters no matter who your audience is.</p>
 <p style="text-align: center;">
