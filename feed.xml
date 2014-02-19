@@ -4,11 +4,115 @@
   <id>http://www.smallhq.com/blog</id>
   <link href="http://www.smallhq.com/blog"/>
   <link href="http://www.smallhq.com/feed.xml" rel="self"/>
-  <updated>2014-02-12T08:00:00Z</updated>
+  <updated>2014-02-19T08:00:00Z</updated>
   <author>
     <name>Matt Goldman</name>
     <name>Joelle Steiniger</name>
   </author>
+  <entry>
+    <title>Your Startup is Overthinking Design</title>
+    <link rel="alternate" href="http://www.smallhq.com/blog/your-startup-is-overthinking-design/"/>
+    <id>http://www.smallhq.com/blog/your-startup-is-overthinking-design/</id>
+    <published>2014-02-19T08:00:00Z</published>
+    <updated>2014-02-19T09:26:32-08:00</updated>
+    <author>
+      <name>Matt Goldman</name>
+    </author>
+    <content type="html">&lt;h1&gt;Your Startup is Overthinking Design&lt;/h1&gt;
+
+&lt;p&gt;
+  Design matters. A great deal. But design doesn&amp;rsquo;t need to be complicated.&lt;/p&gt;
+
+&lt;p style="text-align: center;"&gt;
+  &lt;em&gt;It certainly shouldn&amp;rsquo;t be the thing preventing your startup from starting.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  I come from an agency background where design was completed first, then on to development, then quality assurance, and finally hand-off. Project finished. Woohoo!!&lt;/p&gt;
+
+&lt;p&gt;
+  The blessing (and curse) of working with software is that it&amp;rsquo;s never finished. Small changes happen daily, and major overhauls happen monthly. Until you find product-market fit, you&amp;rsquo;re essentially a chicken running around with your head cut off.&lt;/p&gt;
+
+&lt;p&gt;
+  So why on earth would you spend a bunch of cash on day 1 hiring a designer to design every screen in your dream app? You know it&amp;rsquo;s all going to be worthless within a couple of months.&lt;/p&gt;
+
+&lt;p&gt;
+  The reality is&amp;hellip;most of you don&amp;rsquo;t pay for good design.&lt;/p&gt;
+
+&lt;p&gt;
+  It&amp;rsquo;s why tons of developer-led projects look awful, or end up using &lt;a href="http://foundation.zurb.com/"&gt;Foundation&lt;/a&gt; or &lt;a href="http://getbootstrap.com/"&gt;Bootstrap&lt;/a&gt; to have a &lt;em&gt;decent-looking&lt;/em&gt; app.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;And it&amp;rsquo;s not all about looks, you know.&lt;/strong&gt; It&amp;rsquo;s about having a distinct brand that people recognize from a mile away.&lt;/p&gt;
+
+&lt;p&gt;
+  We think we&amp;rsquo;ve found a better way&amp;hellip;&lt;/p&gt;
+
+&lt;h2&gt;
+  How We Handle Design at Small HQ&lt;/h2&gt;
+
+&lt;p&gt;
+  Neither Joelle nor I are designers, but we have a big following of designers, which leads me to believe that our products don&amp;rsquo;t look too shabby :-)&lt;/p&gt;
+
+&lt;p&gt;
+  We stumbled upon a process, due to our attempts to avoid high costs early-on, that has worked amazing so far &lt;em&gt;(and that we&amp;rsquo;ve replicated several times since)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+  Whenever starting a new product, we hire a designer. But we don&amp;rsquo;t hire them to design the whole product&amp;hellip;just a style guide for it.&lt;/p&gt;
+
+&lt;p&gt;
+  A Photoshop file that includes a color palette, typography options for different use cases, button styles, form fields, and a simple logotype.&lt;/p&gt;
+
+&lt;p&gt;
+  The cost of this deliverable is typically in the hundreds &lt;em&gt;(not the thousands) &lt;/em&gt;and any developer you work with should be able to execute your product according to the style guide&lt;em&gt; (if not - look for a new developer)&lt;/em&gt;. Here are the early style guides for &lt;a href="http://www.hookfeed.com"&gt;HookFeed&lt;/a&gt; and &lt;a href="http://www.minimalytics.com"&gt;Minimalytics&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src="https://s3.amazonaws.com/smallhq/hf-styles.gif" style="border:2px solid #5A9BCE" /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;img src="https://s3.amazonaws.com/smallhq/mnml-styles.gif" style="border:2px solid #5A9BCE" /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  We love amazing design. And we want everything we produce to look good &amp;ndash; especially since our customers are often designers. But design matters no matter who your audience is.&lt;/p&gt;
+
+&lt;p style="text-align: center;"&gt;
+  &lt;em&gt;People judge your product in a split-second. &lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  This doesn&amp;rsquo;t mean it needs bells and whistles, or screenshots of your app, or illustrations, or anything else really. But it needs to be clean, have legible typography, and look like it wasn&amp;rsquo;t thrown together by a newbie.&lt;/p&gt;
+
+&lt;p&gt;
+  If you aren&amp;rsquo;t willing to put effort into the single page advertising your product&amp;hellip;how can your customers possibly believe you&amp;rsquo;ve given the product any polish, design- or functionality-wise. &lt;strong&gt;And forget about anyone giving you their credit card!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;
+  But regardless of how important design is&amp;hellip;it&amp;rsquo;s simply not rational to spend thousands, or even a small equity stake on upfront product design when you have no clue what your product will look like 6 months from now. Hell, even 1 month from now.&lt;/p&gt;
+
+&lt;p&gt;
+  So put down Bootstrap, discard your awful line-heights and font-sizing, and fork over a few hundred to solidify your product&amp;rsquo;s brand, without paying for the extras.&lt;/p&gt;
+
+&lt;h2&gt;
+  Finding the Perfect Designer&lt;/h2&gt;
+
+&lt;p&gt;
+  Here are a few quick tips to ensure things run smoothly:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    Check &lt;a href="http://www.dribbble.com"&gt;Dribbble&lt;/a&gt; regularly, and &amp;ldquo;like&amp;rdquo; the shots that make you drool. &lt;a href="https://chrome.google.com/webstore/detail/benchwarmer-dribbble-for/lhdjhhpjicomphhjpehdhjenbaamdpnn?hl=en"&gt;Benchwarmer&lt;/a&gt; is awesome for this&amp;hellip;&lt;/li&gt;
+  &lt;li&gt;
+    Over time, you&amp;rsquo;ll build up a collection of &amp;ldquo;liked&amp;rdquo; work that you can show to any designer to give them a concrete idea of the style you like. &lt;a href="http://dribbble.com/SDMattG/shots/likes"&gt;Here&amp;rsquo;s mine&lt;/a&gt;&amp;hellip;&lt;/li&gt;
+  &lt;li&gt;
+    When ready, look at the designers&amp;#39; whose work you&amp;rsquo;re constantly liking, and click the Hire Me button on their Dribbble profiles.&lt;/li&gt;
+  &lt;li&gt;
+    Write a detailed email to each describing your project (get them excited!) and link them to your Dribbble &amp;ldquo;likes&amp;rdquo; page. Describe exactly what you need (i.e. blog typography styles, logotype, 2 primary colors, 5 secondary colors, button styles, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+  If you do it all right, you&amp;rsquo;ve just given a few &lt;em&gt;(hopefully)&lt;/em&gt; pumped designers a well-defined scope/budget/direction for a brief project.&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;And the best part is, it won&amp;rsquo;t slow down product development. &lt;/strong&gt;While the style guide is being created, you can be focused on building the ugly version of your product, which you can later style to match the guide.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Road to SaaS Revenue is Painfully Slow. Are You Prepared for It?</title>
     <link rel="alternate" href="http://www.smallhq.com/blog/the-road-to-saas-revenue-is-painfully-slow-are-you-prepared-for-it/"/>
