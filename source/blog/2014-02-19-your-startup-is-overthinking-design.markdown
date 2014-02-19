@@ -6,6 +6,7 @@ published: true
 ---
 
 <h1>Your Startup is Overthinking Design</h1>
+<p style="color: #EA6D6A; font-style:italic;font-size:14px;line-height:19px;">Disclaimer: The advice in this article is specific to *visual* design. It assumes that you or one of your developers has experience designing the interaction/experience of your product.</p>
 <p>
   Design matters. A great deal. But design doesn&#39;t need to be complicated.</p>
 <p style="text-align: center;">
