@@ -14,11 +14,13 @@
     <link rel="alternate" href="http://www.smallhq.com/blog/your-startup-is-overthinking-design/"/>
     <id>http://www.smallhq.com/blog/your-startup-is-overthinking-design/</id>
     <published>2014-02-19T08:00:00Z</published>
-    <updated>2014-02-19T09:29:45-08:00</updated>
+    <updated>2014-02-19T10:50:49-08:00</updated>
     <author>
       <name>Matt Goldman</name>
     </author>
     <content type="html">&lt;h1&gt;Your Startup is Overthinking Design&lt;/h1&gt;
+
+&lt;p style="color: #EA6D6A; font-style:italic;font-size:14px;line-height:19px;"&gt;Disclaimer: The advice in this article is specific to *visual* design. It assumes that you or one of your developers has experience designing the interaction/experience of your product.&lt;/p&gt;
 
 &lt;p&gt;
   Design matters. A great deal. But design doesn&amp;rsquo;t need to be complicated.&lt;/p&gt;
